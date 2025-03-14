@@ -19,6 +19,7 @@ public class Date {
   private final int day;
   private final int month;
   private final int year;
+  public int hola;
 
   /**
    * Retrieves the day component of this date.
@@ -59,6 +60,7 @@ public class Date {
     this.day = day;
     this.month = month;
     this.year = year;
+
   }
 
   /**
